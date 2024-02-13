@@ -81,15 +81,15 @@ const Creative = () => {
             <iframe
               width="600px"
               height="300px"
-              src={`https://www.youtube.com/embed/vC1GTBm4ehQ?si=xewPA2HxvO8lDh51`}
+              src={`https://www.youtube.com/embed/axKprPAOX-c?si=YGIhmYwEwijpGgNV`}
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
               title="Embedded youtube"
             />
-            <p>This is a VR Demo for EECS 498! We used Unreal Engine 5 for the development, Blueprints within that for 
+            <p>This is a VR Demo for EECS 498! We used Unreal Engine 5 for the development, Blueprints within UE5 for 
               programming events specific to various characters/objects, Sketchfab for 3D models, FreeSound for SFX, and Jira for 
-              task management. </p> 
+              task management. Shoutout to the RTX 4080 for seamless dev experience!</p> 
         </div>
       </div>
     </div>
