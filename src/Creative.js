@@ -87,6 +87,9 @@ const Creative = () => {
               allowFullScreen
               title="Embedded youtube"
             />
+            <p>This is a VR Demo for EECS 498! We used Unreal Engine 5 for the development, Blueprints within that for 
+              programming events specific to various characters/objects, Sketchfab for 3D models, FreeSound for SFX, and Jira for 
+              task management. </p> 
         </div>
       </div>
     </div>
