@@ -55,6 +55,10 @@
     background-size: cover;
   }
 
+  .image-placeholder iframe {
+    padding-top: 200px;
+  }
+
   .image-placeholder p {
     color: rgb(105, 105, 105);
   }
@@ -210,6 +214,13 @@
       position: static;
       width: 100%;
       height: 200px;
+      display: flex; 
+      align-items: center; 
+      justify-content: center;
+    }
+
+    .image-placeholder iframe {
+      padding-top: 100px;
     }
 
     .stick_follow_icon p {
