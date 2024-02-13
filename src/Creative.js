@@ -68,7 +68,7 @@ const Creative = () => {
           <p>I love building projects, learning, developing meaningful software</p>
           <div className="buttons">
             <a className="buttn" href="https://drive.google.com/file/d/18iQ15eGNiK4GTsemoTYfXYIQMCvJWPG3/view?usp=sharing" target="_blank">
-                Résumé
+                Résume
             </a>
             <a className="buttn" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
                 Gift Me
