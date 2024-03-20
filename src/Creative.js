@@ -90,6 +90,16 @@ const Creative = () => {
             <p>This is a VR Demo for EECS 498! We used Unreal Engine 5 for the development, Blueprints within UE5 for 
               programming events specific to various characters/objects, Sketchfab for 3D models, FreeSound for SFX, and Jira for 
               task management. Shoutout to the RTX 4080 for seamless dev experience!</p> 
+            <iframe
+              width="600px"
+              height="300px"
+              src={`https://www.youtube.com/embed/w_6BTfNemH8?si=8zXudhxeuY9Uu4ht`}
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+              title="Embedded youtube"
+            />
+            <p> This is an AR demo for EECS 498! We used Unity Mobile AR to develop this with models from sketchfab, and animations from mixamo!</p>
         </div>
       </div>
     </div>
