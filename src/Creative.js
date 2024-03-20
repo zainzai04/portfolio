@@ -88,6 +88,15 @@ const Creative = () => {
               allowFullScreen
               title="Embedded youtube"
             />
+            <iframe
+              width="600px"
+              height="300px"
+              src={`https://www.youtube.com/embed/w_6BTfNemH8?si=8zXudhxeuY9Uu4ht`}
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+              title="Embedded youtube"
+            />
         </div>
       </div>
     </div>
