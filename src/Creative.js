@@ -51,7 +51,7 @@ const Creative = () => {
       </div> */}
       <div className="main-content">
         <header className="header">
-          <h1>I'm Zain Zai</h1>
+          <h1>I am Zain Zai</h1>
           <h2>
           <Typewriter
             options={{
@@ -65,10 +65,11 @@ const Creative = () => {
             }}
             />
           </h2>
-          <p>I love building projects, learning, developing meaningful software</p>
+          <p>I love building projects, learning, developing meaningful software. Find my latest project:</p>
+          <a href="https://www.yourhomepage.com"> Here! </a>
           <div className="buttons">
             <a className="buttn" href="https://drive.google.com/file/d/18iQ15eGNiK4GTsemoTYfXYIQMCvJWPG3/view?usp=sharing" target="_blank">
-                Résume
+                Résumé
             </a>
             <a className="buttn" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
                 Gift Me
@@ -76,20 +77,27 @@ const Creative = () => {
           </div>
         </header>
         <div className='image-placeholder'>
+        {/* <div className='ggs'> */}
             {/* <Spline scene="https://prod.spline.design/WK7mRxxM8dLiCfXI/scene.splinecode" />
             <p>Credits: Spline 3D Library</p> */}
             <iframe
               width="600px"
               height="300px"
-              src={`https://www.youtube.com/embed/14u2P_P4lF0?si=2q8-kGV5JGeIW8OS`}
+              src={`https://www.youtube.com/embed/4U4b5qfFaV0?si=-OIHZ2w121K2CknJ`}
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
               title="Embedded youtube"
             />
-            <p>This is a VR Demo for EECS 498! We used Unreal Engine 5 for the development, Blueprints within UE5 for 
-              programming events specific to various characters/objects, Sketchfab for 3D models, FreeSound for SFX, and Jira for 
-              task management. Shoutout to the RTX 4080 for seamless dev experience!</p> 
+            <iframe
+              width="600px"
+              height="300px"
+              src={`https://www.youtube.com/embed/vC1GTBm4ehQ?si=xewPA2HxvO8lDh51`}
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+              title="Embedded youtube"
+            />
             <iframe
               width="600px"
               height="300px"
@@ -99,7 +107,6 @@ const Creative = () => {
               allowFullScreen
               title="Embedded youtube"
             />
-            <p> This is an AR demo for EECS 498! We used Unity Mobile AR to develop this with models from sketchfab, and animations from mixamo!</p>
         </div>
       </div>
     </div>
