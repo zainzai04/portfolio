@@ -65,7 +65,8 @@ const Creative = () => {
             }}
             />
           </h2>
-          <p>I love building projects, learning, developing meaningful software</p>
+          <p>I love building projects, learning, developing meaningful software. Find my latest project:</p>
+          <a href="https://www.yourhomepage.com"> Here! </a>
           <div className="buttons">
             <a className="buttn" href="https://drive.google.com/file/d/18iQ15eGNiK4GTsemoTYfXYIQMCvJWPG3/view?usp=sharing" target="_blank">
                 Résumé
