@@ -51,7 +51,7 @@ const Creative = () => {
       </div> */}
       <div className="main-content">
         <header className="header">
-          <h1>I'm Zain Zai</h1>
+          <h1>I am Zain Zai</h1>
           <h2>
           <Typewriter
             options={{
