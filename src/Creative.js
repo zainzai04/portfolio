@@ -78,9 +78,9 @@ const Creative = () => {
         </header>
         <div className='image-placeholder'>
         {/* <div className='ggs'> */}
-            {/* <Spline scene="https://prod.spline.design/WK7mRxxM8dLiCfXI/scene.splinecode" />
-            <p>Credits: Spline 3D Library</p> */}
-            <iframe
+            <Spline scene="https://prod.spline.design/WK7mRxxM8dLiCfXI/scene.splinecode" />
+            <p>Credits: Spline 3D Library</p>
+            {/* <iframe
               width="600px"
               height="300px"
               src={`https://www.youtube.com/embed/4U4b5qfFaV0?si=-OIHZ2w121K2CknJ`}
@@ -106,7 +106,7 @@ const Creative = () => {
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
               title="Embedded youtube"
-            />
+            /> */}
         </div>
       </div>
     </div>
